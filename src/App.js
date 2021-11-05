@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Todo from "./components/Todo";
 
 // must return sth that can be rendered in the browser
 function App() {
@@ -22,12 +23,7 @@ function App() {
     // </div>
     <div>
       <h1>My Todos</h1>
-      <div className="card">
-        <h2>Need to add a title here</h2>
-        <div className="actions">
-          <button className="btn">Delete</button>
-        </div>
-      </div>
+      <Todo />
     </div>
   );
 }
