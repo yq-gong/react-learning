@@ -1,8 +1,8 @@
 //  without capitalised T it will not work!
-export default function Todo() {
+export default function Todo(props) {
   return (
     <div className="card">
-      <h2>Need to add a title here</h2>
+      <h2>{props.text}</h2>
       <div className="actions">
           <span>Just a placeholder</span>
         <button className="btn">Delete</button>

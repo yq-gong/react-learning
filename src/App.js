@@ -23,8 +23,8 @@ function App() {
     // </div>
     <div>
       <h1>My Todos</h1>
-      <Todo />
-      <Todo />
+      <Todo text="Wash the clothes" />
+      <Todo text="Buy the books"/>
     </div>
   );
 }
