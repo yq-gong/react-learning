@@ -24,7 +24,7 @@ function App() {
     <h1>My Todos</h1>
     <div>
       <h2>TITLE</h2>
-      <button class="control">Delete</button>
+      <button className="control">Delete</button>
     </div>
     </div>
   );
