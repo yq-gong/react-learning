@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 // must return sth that can be rendered in the browser
 function App() {
@@ -21,11 +21,13 @@ function App() {
     //   </header>
     // </div>
     <div>
-    <h1>My Todos</h1>
-    <div>
-      <h2>TITLE</h2>
-      <button className="control">Delete</button>
-    </div>
+      <h1>My Todos</h1>
+      <div className="card">
+        <h2>Need to add a title here</h2>
+        <div className="actions">
+          <button className="btn">Delete</button>
+        </div>
+      </div>
     </div>
   );
 }
