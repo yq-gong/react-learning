@@ -4,7 +4,7 @@ export default function Todo(props) {
     <div className="card">
       <h2>{props.text}</h2>
       <div className="actions">
-          <span>Just a placeholder</span>
+          <span>{props.content}</span>
         <button className="btn">Delete</button>
       </div>
     </div>
