@@ -4,6 +4,7 @@ export default function Todo(props) {
     alert(`Clicked ${props.text}`);
   }
 
+
   return (
     <div className="card">
       <h2>{props.text}</h2>
