@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import Todo from "./components/Todo";
+import { BrowserRouter as Router } from "react-router-dom";
+import Pages from "./components/Pages";
+import Navigation from "./components/Navigation";
 
 // must return sth that can be rendered in the browser
 function App() {
@@ -22,9 +25,15 @@ function App() {
     //   </header>
     // </div>
     <div>
-      <h1>My Todos</h1>
+      {/* <h1>My Todos</h1>
       <Todo text="Host this website" content="ddl: 2days"/>
-      <Todo text="Write more content here" content="ddl: 5days"/>
+      <Todo text="Write more content here" content="ddl: 5days"/> */}
+      <Router>
+        <div>
+          <Pages />
+        </div>
+      </Router>
+      {/* <Navigation /> */}
     </div>
   );
 }
