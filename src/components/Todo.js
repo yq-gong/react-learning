@@ -24,6 +24,7 @@ export default function Todo(props) {
         <button className="btn" onClick={handleClick}>
           Clicked {count}times
         </button>
+        <p>Adding a small change to test update.</p>
       </div>
     </div>
   );
